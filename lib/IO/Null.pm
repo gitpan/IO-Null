@@ -1,6 +1,6 @@
 
 require 5;
-# Time-stamp: "2000-09-22 15:57:29 MDT"
+# Time-stamp: "2004-12-29 19:09:59 AST"
 package IO::Null;
 use strict;
 use vars qw($VERSION @ISA);
@@ -9,7 +9,7 @@ use vars qw($VERSION @ISA);
 use IO::Handle ();
 @ISA = ('IO::Handle');
 
-$VERSION = "0.02";
+$VERSION = "1.01";
 
 =head1 NAME
 
